@@ -7,6 +7,16 @@
         <link rel="stylesheet" href="/home/aluno/Documentos/david/repository/bootstrap/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap.min.css">
         <script src="/home/aluno/Documentos/david/repository/bootstrap/jquery-3.3.1/jquery-3.3.1.min.js"></script>
         <script src="/home/aluno/Documentos/david/repository/bootstrap/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+        <style>
+			.alert-success{
+				background-color: red  !important;
+				color: black !important;
+			}
+			.glyphicon-off{
+				background-color: red  !important;
+				color: black !important;
+			}
+        </style>
     </head>
     <body>
 		<!--DIV PALCO, PRINCIPAL DIV-->
@@ -102,8 +112,38 @@
 				</div>
 				<div class="col col-md-1"></div>
 			</div>
-			<div class="row" >
-
+			<div class="row" style="margin-top:80px" >
+				<div class="col col-md-3"></div>
+				<div class="col col-md-6">
+					<p>Alerta</p><br>
+					<div class="alert alert-warning">
+						<strong>Cuidado</strong> não clique no icone  <a href="#" class="close glyphicon glyphicon-screenshot" data-dismiss="alert" aria-hiden="true"></a>
+					</div>
+					<div class="alert alert-success alert-dismissible" >
+					  <a href="#" class="close glyphicon glyphicon-off" data-dismiss="alert" ></a>
+					  <strong>Success!</strong> Indicates a successful or positive action.
+					</div>
+				</div>
+				<div class="col col-md-3"></div>
+			</div>
+			<div class="row" style="margin-bottom: 80px">
+				<div class="col col-md-2"></div>
+				<div class="col col-md-3">
+					<h1>Titulo1</h1>
+					<div class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nunc tellus, mollis sit amet porttitor id, gravida eget diam. Nunc porta viverra mi sed scelerisque. Phasellus quis scelerisque justo. Integer sit amet lacus ut tortor rutrum tincidunt.  </div>
+					<br><button class="btn btn-primary">Veja mais <span class="glyphicon glyphicon-chevron-right" aria-hide="true"></button>
+				</div>
+				<div class="col col-md-3">
+					<h1>Titulo2</h1>
+					<div class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nunc tellus, mollis sit amet porttitor id, gravida eget diam. Nunc porta viverra mi sed scelerisque. Phasellus quis scelerisque justo. Integer sit amet lacus ut tortor rutrum tincidunt. </div>
+					<br><button class="btn btn-success ">Veja mais <span class="glyphicon glyphicon-chevron-right" aria-hide="true"></span></button>
+				</div>
+				<div class="col col-md-3">
+					<h1>Titulo3</h1>
+					<div class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nunc tellus, mollis sit amet porttitor id, gravida eget diam. Nunc porta viverra mi sed scelerisque. Phasellus quis scelerisque justo. Integer sit amet lacus ut tortor rutrum tincidunt. </div>
+					<br><button class="btn btn-danger ">Veja mais <span class="glyphicon glyphicon-chevron-right" aria-hide="true"></button>
+				</div>
+				<div class="col col-md-1"></div>
 			</div>
 		</div>
 	</body>
